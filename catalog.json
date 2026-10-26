@@ -1,0 +1,14 @@
+{
+  "products": [
+    {"name": "Sample Tool 1", "price": "Rs 1000", "duration": "1 mahina", "days": 30, "details": "YAHAN APNI ASAL TOOL KI DETAILS LIKHEIN"},
+    {"name": "Sample Tool 2", "price": "Rs 2500", "duration": "3 mahine", "days": 90, "details": "YAHAN APNI ASAL TOOL KI DETAILS LIKHEIN"},
+    {"name": "Sample Tool 3", "price": "Rs 8000", "duration": "1 saal", "days": 365, "details": "YAHAN APNI ASAL TOOL KI DETAILS LIKHEIN"}
+  ],
+  "policies": "YAHAN APNI POLICY LIKHEIN (AI mode ke liye): payment pehle, delivery payment confirm hone ke baad, refund ya replacement ka tareeqa, support ka waqt.",
+  "faq": [
+    {"keywords": ["payment", "pay", "easypaisa", "jazzcash", "bank"], "answer": "Payment Easypaisa, JazzCash ya bank transfer se hoti hai. Order karne par aap ko details mil jati hain. YAHAN APNA JAWAB LIKHEIN."},
+    {"keywords": ["delivery", "kab milega", "kitni der", "time"], "answer": "Payment confirm hone ke baad delivery usi din ho jati hai. YAHAN APNA JAWAB LIKHEIN."},
+    {"keywords": ["refund", "wapas", "paise wapas"], "answer": "YAHAN APNI REFUND POLICY LIKHEIN."},
+    {"keywords": ["warranty", "guarantee", "replace", "replacement", "masla", "kaam nahi"], "answer": "YAHAN APNI WARRANTY / SUPPORT POLICY LIKHEIN."}
+  ]
+}

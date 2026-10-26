@@ -1,0 +1,12 @@
+WHATSAPP_TOKEN=Meta ka permanent access token
+PHONE_NUMBER_ID=Meta se mila Phone number ID
+VERIFY_TOKEN=koi bhi apna khufia lafz (webhook mein wahi likhna hai)
+META_APP_SECRET=Meta app ka App Secret
+OWNER_NUMBER=923001234567   (country code ke saath, + ke baghair)
+SHOP_NAME=AHAD Digital Tools
+PAYMENT_DETAILS=Easypaisa/JazzCash/Bank ki details yahan likhein
+
+OPTIONAL (ye na bharein to bot free FAQ mode mein chalega):
+GEMINI_API_KEY=aistudio.google.com se free key (AI jawab ke liye)
+ANTHROPIC_API_KEY=Claude AI ke liye (paid, bohat sasta)
+REMINDER_TEMPLATE=Meta se approved template ka naam (paid)

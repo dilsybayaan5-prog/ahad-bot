@@ -1,0 +1,26 @@
+services:
+  - type: web
+    name: ahad-whatsapp-bot
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app --workers 1 --threads 8 --timeout 120
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.3
+      - key: WHATSAPP_TOKEN
+        sync: false
+      - key: PHONE_NUMBER_ID
+        sync: false
+      - key: VERIFY_TOKEN
+        sync: false
+      - key: META_APP_SECRET
+        sync: false
+      - key: OWNER_NUMBER
+        sync: false
+      - key: PAYMENT_DETAILS
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: SHOP_NAME
+        sync: false
